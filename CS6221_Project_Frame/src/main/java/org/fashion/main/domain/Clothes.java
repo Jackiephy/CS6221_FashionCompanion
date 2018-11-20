@@ -16,7 +16,7 @@ public class Clothes implements Serializable{
 	/** CLOTHES_ID LONG */
 	@Id @GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="CLOTHES_ID")
-	private Long clothes_id;
+	private Long clothesId;
 	
 	/** TYPE VARCHAR2(200) */
 	@Column(name="TYPE",length=200)

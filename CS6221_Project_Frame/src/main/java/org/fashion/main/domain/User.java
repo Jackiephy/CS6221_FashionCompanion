@@ -29,7 +29,7 @@ public class User implements Serializable{
 	@ManyToMany(fetch=FetchType.LAZY,targetEntity=Clothes.class)
 	@JoinColumn(name="PREFERENCE",referencedColumnName="STYLE",
 				foreignKey=@ForeignKey(name="FK_USER_PREFERENCE"))
-	private String preference;
+	private Clothes preference;
 	
 	
 	/** ADDRESS VARCHAR2(200)*/

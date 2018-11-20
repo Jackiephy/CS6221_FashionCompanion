@@ -255,4 +255,13 @@ public class Order implements Serializable {
 	}
 	
 	
+	@Override
+	public String toString() {
+		return "Order [orderId=" + orderId + ", date=" + date + ", name=" + name + ", email=" + email + ", address="
+				+ address + ", phone=" + phone + ", condition=" + condition + ", clothesId1=" + clothesId1
+				+ ", clothesId2=" + clothesId2 + ", clothesId3=" + clothesId3 + ", clothesId4=" + clothesId4
+				+ ", clothesId5=" + clothesId5 + ", clothesId6=" + clothesId6 + ", clothesId7=" + clothesId7
+				+ ", clothesId8=" + clothesId8 + ", clothesId9=" + clothesId9 + ", clothesId10=" + clothesId10 + "]";
+	}
+	
 }
